@@ -1,0 +1,608 @@
+
+
+header{
+    background-image: url(photost.img/Rectangle.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.navbar-brand img{
+width: 90%;
+}
+
+.nav-link{
+    color: rgb(29, 29, 27);
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.heder-con{
+    margin-top: 35%;
+    padding-bottom: 25%;
+}
+
+.header-h1{
+    color: rgb(255, 255, 255);
+    font-family: Rubik;
+    font-size: 2vw;
+    font-weight: 700;
+    line-height: 4rem;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.header-p{
+    margin-top: 4%;
+    color: rgb(70, 63, 63);
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.heder-btn{
+    margin-top: 7%;
+    color: rgb(255, 255, 255);
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    background-color: rgb(39, 174, 96);
+}
+/* main */
+.block{
+    margin-top: 50px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 0.9%;
+}
+
+.nadpis{
+    color: rgb(29, 29, 27);
+    font-family: Rubik;
+    font-size: 20%;
+    font-weight: 500;
+    line-height: 50px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 2.9%;
+}
+
+.cards-info{
+    width: 19%;
+    height: 90px;
+    text-align: center;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    font-family: Montserrat;
+    font-size: 88%;
+    font-weight: 500;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: left; 
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
+
+.cards-info img {
+    margin-right: 10px;
+    margin-left: 10px;
+    max-width: 17.7%;    
+}
+
+
+.block1 {
+    margin-top: 80px;
+}
+
+.cards-1 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.cards-info-1 {
+    width: 24%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* задний фон */
+    border-radius: 8px;
+    -webkit-box-shadow: -2px 8px 57px 0px rgba(34, 60, 80, 0.42);
+    -moz-box-shadow: -2px 8px 57px 0px rgba(34, 60, 80, 0.42);
+    box-shadow: -2px 8px 57px 0px rgba(34, 60, 80, 0.42);
+    transition: transform 0.3s ease; 
+}
+
+.card-content{
+    height: 17%;
+    width: 76%;
+    
+}
+
+.card-content h2{
+    color: rgb(255, 255, 255);
+    font-family: Rubik;
+    font-size: 140%;
+    font-weight: 700;
+    line-height: 110%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+#sand {
+    background-image: url("block1.img/Rectangle 10.png");
+}
+
+#gravel {
+    background-image: url("block1.img/Rectangle 11.png");
+}
+
+#asphalt{
+    background-image: url("block1.img/Rectangle 707.jpeg");
+}
+
+#rent{
+    background-image: url("block1.img/Rectangle 13.png");
+}
+
+
+.cards-info-1:hover {
+    transform: translateY(-10px); /* Перемещаем элемент вверх на 10px при наведении */
+}
+
+/* Блок 2 */
+.block2{
+margin-top: 80px;
+}
+
+.mini-text{
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+.mini-text2{
+    font-family: Rubik;
+    margin-bottom: 2%;
+    font-family: 500px;
+}
+
+
+
+.ptext {
+    color: rgb(103, 103, 95);
+    font-family: Rubik;
+    font-size: 100%;
+    font-weight: 400;
+    line-height: 142%;
+    letter-spacing: 0.5%;
+    text-align: left; 
+}
+
+.block2-pokazatel-2{ 
+    justify-content: center;
+    align-items: center;
+    gap: 13%;
+    background-color: #ebe6e6;
+    border-radius: 24px;
+}
+
+
+
+.number{
+    font-family: Rubik;
+    font-size: 5em;
+    font-weight: 300;
+    line-height: 120%;
+    letter-spacing: 0.5%;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 3%;
+}
+/* разбор с наследов */
+.ptext-2{
+    color: rgb(103, 103, 95);
+    font-family: Rubik;
+    font-size: 1.2em;
+    font-weight: 400;
+    line-height: 142%;
+    letter-spacing: 0.5%;
+    text-align: left; 
+    margin-bottom: 0;
+}
+
+/* Блок3 */
+.block3{
+    margin-top: 80px;
+    
+}
+
+.block3-mtext3{
+    color: rgb(30, 30, 28);
+    font-family: Rubik;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 0%;
+    margin-top: 6%;
+}
+
+.lead{
+    margin-top: 3%;
+    font-family: Rubik;
+    font-size: 140%;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: left;
+    color: rgb(39, 174, 96);
+    margin-right: 12%;
+}
+
+.podtext3{
+    margin-top: 7%;
+    font-family: Rubik;
+    font-size: 114%;
+    font-weight: 300;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.button3{
+    margin-top: 9%;
+    width: 32%;
+    height: 14%;
+    font-size: 110%;
+    font-weight: 500;
+    background-color: rgb(39, 174, 96);
+}
+
+.leadpodtext{
+    margin-right: 9%;
+}
+
+.container-fluid{
+    background-color:rgb(248, 248, 248);;
+}
+
+.formreg{
+    margin: 5% 5% 5% 11%;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 12px;
+    box-shadow: 0px 4px 40px 0px rgba(7, 17, 51, 0.07);
+    background: rgb(255, 255, 255);
+    
+}
+
+.form-control{
+    margin-bottom: 5%;
+    width: 89%;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 6px;;
+    font-size: 120%;
+    color: rgb(24, 26, 40);
+    font-family: Rubik;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+#fcont1{
+    margin-top: 6%;
+}
+
+#fcont3{
+    height: 6em;
+}
+
+
+.form-control-sm{
+    height: 20px;
+}
+
+.soglashenie a{
+    color: rgb(24, 26, 40);
+    font-family: Rubik;
+    font-size: 90%;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+/* Блок 4 */
+
+.block4{
+    margin-bottom: 2%;
+}
+
+.block4-h1{
+    margin-top: 3%;
+    font-family: Rubik;  
+    line-height: 50px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.block4-p{
+    margin-top: 2%;
+    margin-right: 5%;
+    color: rgb(30, 30, 28);
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.block4-list{
+    margin-top: 7.5%;
+    padding-left: 0;
+}
+
+.list-zv{
+    margin-bottom: 7.5%;
+    list-style: none;
+    color: rgb(30, 30, 28);
+    font-family: Rubik;
+    font-size: 100%;
+    font-weight: 300;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.list-zv img{
+    margin-right: 1.5%;
+    width: 3%;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 21%;
+    margin-bottom: 1%;
+}
+
+.contact-city, .contact-number{
+    background-color:  rgb(248, 248, 248);
+    text-align: center;
+    width: 49%;
+    padding-top: 9%;
+    padding-bottom: 9%;
+}
+
+.podtext-contact{
+    margin-bottom: 0;
+    color: rgb(132, 134, 146);
+    font-family: Rubik;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.block4-map-4{
+  padding: 0;
+  width: 50%;
+  
+}
+
+/* footer */
+footer{
+    background-color: rgb(66, 65, 65);
+}
+
+span{
+    color: rgb(255, 255, 255);
+    font-family: Questrial;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-left: 6%;
+    opacity: 0.6;
+}
+
+.footer2 .hed{
+    color: rgb(255, 255, 255);
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.footer2-menu a{
+    color: rgb(255, 255, 255);
+}
+
+.btn-footer2{
+    border: 2px solid rgb(153, 148, 148);
+    color: rgb(255, 255, 255);
+    background-color: rgb(66, 65, 65);
+}
+
+@media (max-width:576px){
+    .heder-con{
+        margin-top: 97%;
+        padding-bottom: 9%;
+    }
+}
+
+@media (max-width:992px){
+ 
+    
+    .cards-info{
+        font-size: 65%;
+    }
+
+    .cards-info{
+        width: 19%;
+        height: 50px;
+}
+
+
+    .podtext3 {
+        margin-top: 7%;
+        font-size: 113%;
+       
+    }
+
+    .media{
+        flex-direction: column;
+    }
+
+   
+}
+
+
+
+
+@media (max-width:767px){
+  
+    .cards{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+    }
+    .cards-info{
+        width: 100%;
+        font-size: 90%;
+    }
+
+    .cards-1 {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 13px;
+        width: 100%;
+    }
+
+    .cards-info-1 {
+        width: 100%;
+        height: 226px;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        transition: transform 0.3s ease; /* Добавляем плавный переход */
+    }
+
+    /* блок 2 */
+
+    .mini-text{
+        margin-top: 4%;
+        margin-bottom: 5%;
+    }
+
+    .mini-text2{
+        margin-bottom: 1%;
+    }
+
+    .block2-pokazatel-2{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .pokazatelmini{
+        margin-top: 8%;
+    }
+
+    #pokaz2{
+        margin-bottom: 9%;
+    }
+
+    .number{
+        font-weight: 500;
+    }
+
+    /* блок3 */
+
+    .formreg{
+        margin: 0;
+    }
+
+    .block3-mtext3{
+        margin-left: 2%;
+    }
+
+    .podtext3{
+        margin-top: 4%;
+    }
+
+    .leadpodtext{
+        margin-right: -2%;
+        margin-left: 3%;
+    }
+
+    .button3{
+        display: none;
+    }
+/* Блок 4 */
+    .contact{
+        margin-top: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-city, .contact-number{
+        width: 100%;
+        margin-bottom: 1%;
+    }
+    .block4-map-4{
+        width: 100%;
+        height: 25em;
+    }
+}
+
+@media (max-width:1200px){
+    .header-h1{
+        font-size: 252%;
+        line-height: 100%;
+    }
+
+    .header-p{
+        font-size: 1.1rem;
+    }
+
+    .heder-btn{
+        margin-top: 4%;
+        font-size: 16px;
+        padding: 7px 7px !important;
+    }
+    
+    .button3 {
+        margin-top: 8%;
+        width: 36%;
+        height: 14%;
+        font-size: 110%;
+        margin-bottom: 8%;
+        line-height: 119%;
+    }
+
+    .lead{
+        margin-top: 6%;
+    }
+}
